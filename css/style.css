@@ -23,12 +23,13 @@ html,body{
 }
 h1.title{
 	z-index:3333;
+	text-align: center;
 	font-size:5em;
 	position: relative;
 	margin:0 auto;
 	font-weight:100;
 	color:#eee;
-	width:50%;
+	width:30%;
 }
 body{
 	color:#fff;
@@ -76,10 +77,18 @@ li{
 	padding:1.5em;
 	text-decoration: none;
 }
-@media (max-width: 600px)
+@media only screen and (max-width : 640px) {
+   h1.title{
+   	display: block;
+   	position: relative;
+   	right: .5em;
+   }
+}
+
+@media only screen and (max-device-width: 699px) and (min-device-width:520px)
   { 
-    .socialicons,.icon-search,h1.title{
-    	z-index: 99999;
+    h1.title{
+    	text-align: center;
     }
 }
 /*icomoon icons Here */

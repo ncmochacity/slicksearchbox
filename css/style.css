@@ -24,8 +24,11 @@ html,body{
 h1.title{
 	z-index:3333;
 	font-size:5em;
+	position: relative;
+	margin:0 auto;
 	font-weight:100;
 	color:#eee;
+	width:50%;
 }
 body{
 	color:#fff;
@@ -35,6 +38,8 @@ body{
 	text-align: center;
 }
 #content{
+	top:3em;
+	position:relative;
 	height:100%;
 }
 
@@ -71,7 +76,6 @@ li{
 	padding:1.5em;
 	text-decoration: none;
 }
-
 @media (max-width: 600px)
   { 
     .socialicons,.icon-search,h1.title{

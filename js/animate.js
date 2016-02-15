@@ -23,7 +23,7 @@ $(function(){
 	});
 	$(document).mouseup(function(){
 		if(isOpen ==true){
-			$('.icon-search').css('display','block');
+			$('.icon-search').css('display','inline-block');
 			submitIcon.click();
 		}
 	})
